@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Flashdrive.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="Scripts/Validaciones.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner">
+
+        <asp:LoginName ID="LoginName1" runat="server" />
+&nbsp;<asp:LoginStatus ID="LoginStatus1" runat="server" />
+&nbsp;<br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:Menu ID="Menu1" runat="server" BackColor="Black" CssClass="Menu" 
+            DynamicHorizontalOffset="2" Font-Names="Tw Cen MT" Font-Size="0.8em" 
+            ForeColor="White" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+            BorderStyle="Groove">
+            <DynamicHoverStyle BackColor="#284E98" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="17px" VerticalPadding="2px" 
+                ItemSpacing="4px" />
+            <DynamicMenuStyle BackColor="#B5C7DE" CssClass="Items" 
+                HorizontalPadding="10px" />
+            <DynamicSelectedStyle BackColor="#507CD1" />
+            <Items>
+                <asp:MenuItem Text="INICIO" Value="INICIO" NavigateUrl="~/Home.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="NOSOTROS" Value="NOSOTROS" NavigateUrl="~/Nosotros.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="SERVICIOS" Value="SERVICIOS" NavigateUrl="~/Servicios.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="UNIDADES" Value="UNIDADES" NavigateUrl="~/Unidades.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="CONTÁCTENOS" Value="CONTÁCTENOS" 
+                    NavigateUrl="~/Comentarios.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="http://delron20-001-site1.myasp.net/" 
+                    Text="CHAT EN LINEA" Value="Chat en línea"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#284E98" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#507CD1" />
+        </asp:Menu>
+        <br />
+    
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="Main" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class ="Footer">
+            <br />
+            Flashdrive.<br />
+            Dirección: 9 de Octubre y Boyacá.<br />
+            Guayaquil - Ecuador</div>
+    </div>
+    </form>
+</body>
+</html>

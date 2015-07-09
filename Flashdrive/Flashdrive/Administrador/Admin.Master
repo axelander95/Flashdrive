@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Flashdrive.Administrador.Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript" src="../Scripts/Validaciones.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="banner">
+        <br />
+        <asp:LoginName ID="LoginName1" runat="server" />
+&nbsp;<asp:LoginStatus ID="LoginStatus1" runat="server" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <asp:Menu ID="Menu1" runat="server" BackColor="Black" 
+            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="Large" 
+            ForeColor="White" Orientation="Horizontal" StaticSubMenuIndent="10px" 
+            Width="100%">
+            <DynamicHoverStyle BackColor="#666666" ForeColor="White" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicMenuStyle BackColor="#E3EAEB" />
+            <DynamicSelectedStyle BackColor="#1C5E55" />
+            <Items>
+                <asp:MenuItem NavigateUrl="~/Administrador/Home.aspx" Text="Inicio" 
+                    Value="Inicio"></asp:MenuItem>
+                <asp:MenuItem Text="Servicios" Value="Servicios" 
+                    NavigateUrl="~/Administrador/Servicios.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Tipos de unidades" Value="Tipos de unidades" 
+                    NavigateUrl="~/Administrador/Tipos_Unidades.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Unidades" Value="Unidades" 
+                    NavigateUrl="~/Administrador/Unidades.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Choferes" Value="Choferes" 
+                    NavigateUrl="~/Administrador/Choferes.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Sectores" Value="Sectores" 
+                    NavigateUrl="~/Administrador/Sector.aspx"></asp:MenuItem>
+                <asp:MenuItem Text="Precios" Value="Precios" 
+                    NavigateUrl="~/Administrador/SectoresEspecíficos.aspx"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Administrador/Comentarios.aspx" 
+                    Text="Control de comentarios" Value="Control de comentarios"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Administrador/ServiciosCarrera.aspx" 
+                    Text="Estadísticas" Value="Estadísticas"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Administrador/Fechas.aspx" 
+                    Text="Consulta por fechas" Value="Consulta por fechas"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Administrador/Top.aspx" 
+                    Text="Consulta por carreras" Value="Consulta por carreras"></asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/Administrador/Carreras.aspx" Text="Carreras" 
+                    Value="Carreras"></asp:MenuItem>
+            </Items>
+            <StaticHoverStyle BackColor="#666666" ForeColor="White" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticSelectedStyle BackColor="#1C5E55" />
+        </asp:Menu>
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,4 @@
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\bin\Flashdrive.dll
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\bin\Flashdrive.pdb
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\obj\Release\Flashdrive.dll
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\obj\Release\Flashdrive.pdb

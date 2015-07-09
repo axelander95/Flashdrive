@@ -1,0 +1,40 @@
+﻿body 
+{
+    background-image: url('/Imágenes/Site/back6.jpg');
+    width:996px;
+    margin: 0 auto;
+    color:White;
+    background-color: Black;
+    min-height: 700px;
+    font-family: Segoe UI Light;
+    background-position: bottom center;
+}
+
+.banner 
+{
+    background-position: center bottom;
+    background-image : url('/Imágenes/Logos/LOGO.png');
+    margin: 0 auto;
+    width: 996px;
+    height: 300px;
+    background-repeat:no-repeat;
+    color: #FFFF00;
+}
+.Menu
+{
+    width: 992px;
+    height: auto;
+    font-size: 30px;
+}
+.Items
+{
+    padding: 4px 4px 4px 4px;
+}
+.Footer
+{
+}
+.Images
+{
+    width: 50px;
+    height: 50px;
+}

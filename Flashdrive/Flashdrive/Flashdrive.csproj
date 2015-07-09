@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{84D16931-4AB4-4715-B6E2-7CC93D0A74CB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Flashdrive</RootNamespace>
+    <AssemblyName>Flashdrive</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DataVisualization.Design" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounts\IniciarSesión.aspx" />
+    <Content Include="Accounts\Registro.aspx" />
+    <Content Include="Administrador\Carreras.aspx" />
+    <Content Include="Administrador\Choferes.aspx" />
+    <Content Include="Administrador\Comentarios.aspx" />
+    <Content Include="Administrador\Fechas.aspx" />
+    <Content Include="Administrador\Home.aspx" />
+    <Content Include="Administrador\Sector.aspx" />
+    <Content Include="Administrador\SectoresEspecíficos.aspx" />
+    <Content Include="Administrador\Servicios.aspx" />
+    <Content Include="Administrador\ServiciosCarrera.aspx" />
+    <Content Include="Administrador\Tipos_Unidades.aspx" />
+    <Content Include="Administrador\Top.aspx" />
+    <Content Include="Administrador\Unidades.aspx" />
+    <Content Include="Comentarios.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Encuesta.aspx" />
+    <Content Include="Encuesta.css" />
+    <Content Include="Estilos\Administrador.css" />
+    <Content Include="Estilos\Mapa.css" />
+    <Content Include="Estilos\pantalla.css" />
+    <Content Include="Final.aspx" />
+    <Content Include="flash\banner1.swf" />
+    <Content Include="flash\FlashControl.dll" />
+    <Content Include="flash\servicios animacion.swf" />
+    <Content Include="flash\wpp.swf" />
+    <Content Include="Home.aspx" />
+    <Content Include="Imágenes\boton home.jpg" />
+    <Content Include="Imágenes\Carros\Boda1.png" />
+    <Content Include="Imágenes\Carros\Boda2.png" />
+    <Content Include="Imágenes\Carros\Boda3.png" />
+    <Content Include="Imágenes\Carros\Clasico1.png" />
+    <Content Include="Imágenes\Carros\Clasico2.png" />
+    <Content Include="Imágenes\Carros\Clasico3.png" />
+    <Content Include="Imágenes\Carros\Discapacitados1.png" />
+    <Content Include="Imágenes\Carros\Discapacitados2.png" />
+    <Content Include="Imágenes\Carros\Ejecutivo1.png" />
+    <Content Include="Imágenes\Carros\Ejecutivo2.png" />
+    <Content Include="Imágenes\Carros\Ejecutivo3.png" />
+    <Content Include="Imágenes\Carros\Escolar1.png" />
+    <Content Include="Imágenes\Carros\Escolar2.png" />
+    <Content Include="Imágenes\Carros\Funeraria1.png" />
+    <Content Include="Imágenes\Carros\Funeraria2.png" />
+    <Content Include="Imágenes\Carros\Mudanza1.png" />
+    <Content Include="Imágenes\Carros\Mudanza2.png" />
+    <Content Include="Imágenes\Carros\Mudanza3.png" />
+    <Content Include="Imágenes\Carros\Privado1.png" />
+    <Content Include="Imágenes\Carros\Privado2.png" />
+    <Content Include="Imágenes\Carros\Quince1.png" />
+    <Content Include="Imágenes\Carros\Quince2.png" />
+    <Content Include="Imágenes\Carros\Quince3.png" />
+    <Content Include="Imágenes\ima1.jpg" />
+    <Content Include="Imágenes\ima2.jpg" />
+    <Content Include="Imágenes\ima3.png" />
+    <Content Include="Imágenes\Logos\Empresa Logo.png" />
+    <Content Include="Imágenes\Logos\LOGO.png" />
+    <Content Include="Imágenes\Nosotros\taxi fondo.jpg" />
+    <Content Include="Imágenes\Nosotros\taxis.jpg" />
+    <Content Include="Imágenes\Noticias\back2.jpg" />
+    <Content Include="Imágenes\Noticias\click.jpeg" />
+    <Content Include="Imágenes\Noticias\computadora.png" />
+    <Content Include="Imágenes\Site\back6.jpg" />
+    <Content Include="Imágenes\Site\face.png" />
+    <Content Include="Imágenes\Site\ins.png" />
+    <Content Include="Imágenes\Site\tw.png" />
+    <Content Include="Mapa.htm" />
+    <Content Include="Nosotros.aspx" />
+    <Content Include="Resultados.aspx" />
+    <Content Include="Scripts\Validaciones.js" />
+    <Content Include="Servicios.aspx" />
+    <Content Include="Site.css" />
+    <Content Include="Solicitar.aspx" />
+    <Content Include="Solicitud.aspx" />
+    <Content Include="Track\FlashMap.aspx" />
+    <Content Include="Unidades.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebSocket\Node.js\Server.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accounts\IniciarSesión.aspx.cs">
+      <DependentUpon>IniciarSesión.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\IniciarSesión.aspx.designer.cs">
+      <DependentUpon>IniciarSesión.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\Registro.aspx.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accounts\Registro.aspx.designer.cs">
+      <DependentUpon>Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Carreras.aspx.cs">
+      <DependentUpon>Carreras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Carreras.aspx.designer.cs">
+      <DependentUpon>Carreras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Choferes.aspx.cs">
+      <DependentUpon>Choferes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Choferes.aspx.designer.cs">
+      <DependentUpon>Choferes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Comentarios.aspx.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Comentarios.aspx.designer.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Fechas.aspx.cs">
+      <DependentUpon>Fechas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Fechas.aspx.designer.cs">
+      <DependentUpon>Fechas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Sector.aspx.cs">
+      <DependentUpon>Sector.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Sector.aspx.designer.cs">
+      <DependentUpon>Sector.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\SectoresEspecíficos.aspx.cs">
+      <DependentUpon>SectoresEspecíficos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\SectoresEspecíficos.aspx.designer.cs">
+      <DependentUpon>SectoresEspecíficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Servicios.aspx.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Servicios.aspx.designer.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\ServiciosCarrera.aspx.cs">
+      <DependentUpon>ServiciosCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\ServiciosCarrera.aspx.designer.cs">
+      <DependentUpon>ServiciosCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Tipos_Unidades.aspx.cs">
+      <DependentUpon>Tipos_Unidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Tipos_Unidades.aspx.designer.cs">
+      <DependentUpon>Tipos_Unidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Unidades.aspx.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\Unidades.aspx.designer.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Comentarios.aspx.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Comentarios.aspx.designer.cs">
+      <DependentUpon>Comentarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Datos\clase_general.cs" />
+    <Compile Include="Datos\Estadistica.cs" />
+    <Compile Include="Datos\Mail.cs" />
+    <Compile Include="Datos\Tablas.cs" />
+    <Compile Include="Datos\Usuarios.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Encuesta.aspx.cs">
+      <DependentUpon>Encuesta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Encuesta.aspx.designer.cs">
+      <DependentUpon>Encuesta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Final.aspx.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Final.aspx.designer.cs">
+      <DependentUpon>Final.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Encuesta.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Nosotros.aspx.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Nosotros.aspx.designer.cs">
+      <DependentUpon>Nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resultados.aspx.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Resultados.aspx.designer.cs">
+      <DependentUpon>Resultados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Servicios.aspx.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Servicios.aspx.designer.cs">
+      <DependentUpon>Servicios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitar.aspx.cs">
+      <DependentUpon>Solicitar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solicitar.aspx.designer.cs">
+      <DependentUpon>Solicitar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Solicitud.aspx.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Solicitud.aspx.designer.cs">
+      <DependentUpon>Solicitud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Track\FlashMap.aspx.cs">
+      <DependentUpon>FlashMap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Track\FlashMap.aspx.designer.cs">
+      <DependentUpon>FlashMap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Unidades.aspx.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Unidades.aspx.designer.cs">
+      <DependentUpon>Unidades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebSocket\RealTimeSocket.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Administrador\Admin.Master" />
+    <Content Include="Administrador\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accounts\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Track\Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54562</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

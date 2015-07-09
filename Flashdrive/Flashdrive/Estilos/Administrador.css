@@ -1,0 +1,14 @@
+﻿body 
+{
+    background-image: url('/Imágenes/Site/back6.jpg');
+    margin: 0px 0px 0px 0px;
+    width: auto;
+    font-family:Corbel;
+    font-size: 16px;
+}
+
+a:link
+{
+    color: #FFFF00;
+   
+}

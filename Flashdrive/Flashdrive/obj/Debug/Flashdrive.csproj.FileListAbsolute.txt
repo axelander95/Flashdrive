@@ -1,0 +1,5 @@
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\bin\Flashdrive.dll
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\bin\Flashdrive.pdb
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\obj\Debug\Flashdrive.dll
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\obj\Debug\Flashdrive.pdb
+C:\Users\Mirella & Andrés\Desktop\Tutoria\Flashdrive\Flashdrive\obj\Debug\Flashdrive.csprojResolveAssemblyReference.cache
